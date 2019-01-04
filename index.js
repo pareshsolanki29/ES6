@@ -8,3 +8,23 @@ let word2 ="Solanki";
                  world`;
                  document.getElementById("example").innerHTML = fullName + example;
 console.log(example);
+//destructure
+const personalInfo = {
+firstName :'Paresh',
+lastName : 'solanki',
+city : 'Stamford',
+state : 'CT',
+zipCode : '06902',
+};
+
+const {firstName, lastName} = personalInfo;
+console.log(`${firstName} ${lastName}`);
+const {city: ct, state: st} = personalInfo;
+console.log(`${ct} ${st}`);
+
+//destructure arrays
+
+let [ftName, language, ltName] = ['Paresh', 'JavaScript', 'Coder'];
+language  = "typeScript";
+console.log( language);
+
