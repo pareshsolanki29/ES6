@@ -110,3 +110,14 @@ sum2(2);
 
 let numArr = [1,2,3,4,5]
 console.log(numArr.includes(0));
+
+
+//let const
+
+
+/*let has block scope */
+/* const cannot be reassigned*/
+
+
+//import export
+
