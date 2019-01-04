@@ -68,3 +68,45 @@ let example1 = {
 let example2 = {
     ...example1
 }
+
+
+//Rest Operator
+
+
+function add(...nums){
+  console.log(nums)
+
+}
+
+add(4, 4, 5, 6, 7);
+
+
+//Arrow functions
+
+
+function sum1(...nums) {
+  let total = nums.reduce((x, y ) => x + y)
+  console.log(total);
+}
+sum1(1, 2, 3,4 );
+
+
+//Default Params
+
+function sum2(numArray){
+    let total = 0;
+    numArray.forEach(element => {
+        total += element
+        
+    });
+
+    console.log(total);
+}
+
+sum2(2);
+
+
+//Includes
+
+let numArr = [1,2,3,4,5]
+console.log(numArr.includes(0));
