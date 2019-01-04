@@ -7,3 +7,4 @@ let word2 ="Solanki";
   let example = `hello
                  world`;
                  document.getElementById("example").innerHTML = fullName + example;
+console.log(example);
