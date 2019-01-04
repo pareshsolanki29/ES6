@@ -52,3 +52,19 @@ let fullNomen = 'Paresh Solanki';
 for (const char of fullNomen){
     console.log(char);
 }
+
+//Spread Operator
+
+let egs = [1,2,3,4,5,6]
+let egs1 = [...egs]
+
+console.log(egs1);
+
+
+let example1 = {
+    firstName: 'Papi'
+}
+
+let example2 = {
+    ...example1
+}
