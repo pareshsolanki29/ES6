@@ -28,3 +28,11 @@ let [ftName, language, ltName] = ['Paresh', 'JavaScript', 'Coder'];
 language  = "typeScript";
 console.log( language);
 
+//object literals
+
+function addressChange(city, state){
+    const newAddress = {city, state}
+    console.log(newAddress)
+}
+addressChange('San Francisco', 'CA');
+ 
